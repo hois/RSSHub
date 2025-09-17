@@ -3165,6 +3165,9 @@
   "/google/fonts/:sort?": [
     "Fatpandac"
   ],
+  "/google/jules/changelog": [
+    "johan456789"
+  ],
   "/google/news/:category/:locale": [
     "zoenglinghou",
     "pseudoyu"
@@ -3960,10 +3963,12 @@
     "nczitzk"
   ],
   "/hupu/dept/:category?": [
-    "nczitzk"
+    "nczitzk",
+    "hyoban"
   ],
   "/hupu/:category?": [
-    "nczitzk"
+    "nczitzk",
+    "hyoban"
   ],
   "/hust/gs/:category{.+}?": [
     "nczitzk"
@@ -4802,6 +4807,9 @@
   "/lens/profile/:handle": [
     "DIYgod"
   ],
+  "/letterboxd/:username/watchlist": [
+    "johan456789"
+  ],
   "/lfsyd/home": [
     "auto-bot-ty"
   ],
@@ -5371,6 +5379,9 @@
   ],
   "/nankai/cc/:type?": [
     "vicguo0724"
+  ],
+  "/nankai/graduate/:type?": [
+    "ladeng07"
   ],
   "/nankai/jwc": [
     "vicguo0724"
@@ -6617,6 +6628,9 @@
   "/qweather/now/:location": [
     "Rein-Ou"
   ],
+  "/qwenlm/blog/:lang?": [
+    "Kjasn"
+  ],
   "/qztc/home/:type": [
     "iQNRen"
   ],
@@ -6770,6 +6784,9 @@
   ],
   "/samd/news/:typeId": [
     "hualiong"
+  ],
+  "/samrdprc/:id{.+}?": [
+    "nczitzk"
   ],
   "/samrdprc/news/:type1/:type2": [
     "a180285"
@@ -7712,6 +7729,9 @@
   "/telegram/blog": [
     "fengkx"
   ],
+  "/telegram/media/:entityName/:messageId": [
+    "synchrone"
+  ],
   "/telegram/channel/:username/:routeParams?": [
     "DIYgod",
     "Rongronggg9",
@@ -7720,6 +7740,9 @@
   ],
   "/telegram/stickerpack/:name": [
     "DIYgod"
+  ],
+  "/telegram/stories/:username/:story?": [
+    "synchrone"
   ],
   "/tencent/cloud/developer/column/:categoryId?": [
     "lyling"

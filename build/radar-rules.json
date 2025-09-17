@@ -3438,6 +3438,17 @@
         ],
         "target": "/njuferret/blog"
       }
+    ],
+    "qwenlm": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/blog/",
+          "/:lang/blog/"
+        ],
+        "target": "/qwenlm/qwenlm/blog/:lang"
+      }
     ]
   },
   "agri.cn": {
@@ -20712,7 +20723,7 @@
         "target": "/hupu/:category"
       },
       {
-        "title": "Unknown",
+        "title": "手机虎扑网",
         "docs": "https://docs.rsshub.app/routes/bbs",
         "source": [
           "/:category",
@@ -20721,7 +20732,7 @@
         "target": "/hupu/:category"
       },
       {
-        "title": "Unknown",
+        "title": "手机虎扑网",
         "docs": "https://docs.rsshub.app/routes/bbs",
         "source": [
           "/:category",
@@ -24367,6 +24378,19 @@
           "/u/:handle"
         ],
         "target": "/lens/profile/:handle"
+      }
+    ]
+  },
+  "letterboxd.com": {
+    "_name": "Letterboxd",
+    ".": [
+      {
+        "title": "User Watchlist",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/:username/watchlist/"
+        ],
+        "target": "/letterboxd/:username/watchlist"
       }
     ]
   },
@@ -28637,6 +28661,17 @@
           "/:type/list.htm"
         ],
         "target": "/nankai/cc/:type?"
+      }
+    ],
+    "graduate": [
+      {
+        "title": "研究生院",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/",
+          "/:type/list.htm"
+        ],
+        "target": "/nankai/graduate/:type?"
       }
     ],
     "jwc": [
@@ -34442,8 +34477,88 @@
     ]
   },
   "samrdprc.org.cn": {
-    "_name": "国家市场监督管理总局",
+    "_name": "国家市场监督管理总局缺陷产品管理中心",
     "www": [
+      {
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/:id"
+        ],
+        "target": "/samrdprc/:id"
+      },
+      {
+        "title": "网站首页 - 新闻动态",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/xwdt/gzdt/"
+        ],
+        "target": "/samrdprc/xwdt/gzdt"
+      },
+      {
+        "title": "网站首页 - 网站公告",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/wzgg/"
+        ],
+        "target": "/samrdprc/wzgg"
+      },
+      {
+        "title": "网站首页 - 汽车召回",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/qczh/"
+        ],
+        "target": "/samrdprc/qczh"
+      },
+      {
+        "title": "网站首页 - 消费品召回",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/xfpzh/"
+        ],
+        "target": "/samrdprc/xfpzh"
+      },
+      {
+        "title": "科学研究 - 技术报告",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/yjgz/jsyj/"
+        ],
+        "target": "/samrdprc/yjgz/jsyj"
+      },
+      {
+        "title": "科学研究 - SAC/TC463",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/yjgz/sactc/"
+        ],
+        "target": "/samrdprc/yjgz/sactc"
+      },
+      {
+        "title": "科学研究 - 研究动态",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/yjgz/yjfx/"
+        ],
+        "target": "/samrdprc/yjgz/yjfx"
+      },
+      {
+        "title": "安全教育 - 安全教育",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/aqjy/"
+        ],
+        "target": "/samrdprc/aqjy"
+      },
+      {
+        "title": "法律法规 - 国内法规",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/flfg/gnfg/"
+        ],
+        "target": "/samrdprc/flfg/gnfg"
+      },
       {
         "title": "召回信息",
         "docs": "https://docs.rsshub.app/routes/government",
