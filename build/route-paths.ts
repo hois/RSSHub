@@ -669,6 +669,7 @@ export type RoutePath =
   | `/claude/code/changelog`
   | `/clickme/:site/:grouping/:name`
   | `/cline/blog`
+  | `/cloudflare/blog`
   | `/cloudflarestatus/`
   | `/cloudnative/blog`
   | `/cls/depth/:category?`
@@ -858,6 +859,7 @@ export type RoutePath =
   | `/dapenti/tugua`
   | `/darwinawards/`
   | `/dataguidance/news`
+  | `/datalekt/incidents`
   | `/daum/potplayer/:lang?`
   | `/daxiaamu/home`
   | `/dayanzai/:category/:fulltext?`
@@ -1140,6 +1142,8 @@ export type RoutePath =
   | `/f95zone/thread/:thread`
   | `/facebook/group/:id`
   | `/facebook/page/:id`
+  | `/facebook/photos/:id`
+  | `/facebook/reels/:id`
   | `/famitsu/category/:category?`
   | `/fanbox/:creator`
   | `/fanfou/favorites/:uid`
